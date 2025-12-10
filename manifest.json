@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "ThinkPasse Password Manager",
+  "version": "1.0",
+  "description": "A simple password manager that saves credentials to Google Drive.",
+  "permissions": [
+    "storage",
+    "identity"
+  ],
+  "host_permissions": [
+    "https://www.googleapis.com/*"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

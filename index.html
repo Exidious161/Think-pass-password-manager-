@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Think Pass</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <img src="pass.jpeg" alt="Password Icon" class="pass-image">
+      <h1>🔐 Write your username and password 💻</h1>
+      <label for="website"><i class="fas fa-globe"></i> Website:</label>
+      <input type="text" id="website" placeholder="e.g., example.com" />
+      <label for="username"><i class="fas fa-user"></i> Username:</label>
+      <input type="text" id="username" />
+      <label for="password"><i class="fas fa-lock"></i> Password:</label>
+      <input type="password" id="password" />
+      <div id="password-strength"></div>
+      <button id="save"><i class="fas fa-save"></i> Save</button>
+      <button id="view-passwords"><i class="fas fa-list"></i> View Saved Passwords</button>
+      <h2>📋 Saved Passwords 📋</h2>
+      <ul id="password-list"></ul>
+    </div>
+  </body>
+</html>
